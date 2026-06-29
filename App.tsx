@@ -1,5 +1,5 @@
-import React, { useState, useEffect, useRef } from 'react'; 
-import{ 
+import React, { useState, useEffect, useRef } from 'react';
+import { 
   Sparkles, Brain, Timer, Compass, Trash2, Plus, Check, Lock, 
   BookOpen, Heart, User, Sun, Moon, AlertCircle, ArrowRight, 
   ArrowLeft, CheckSquare, RefreshCw, BarChart2, ShieldAlert,
@@ -111,7 +111,7 @@ export default function App() {
 
   // ================= GEMINI API CONTEXT-AWARE LLM CALLER WITH EXPONENTIAL BACKOFF =================
   const callGeminiAPI = async (prompt, systemInstruction = "") => {
-    const apiKey = import.meta.env.VITE_GEMINI_API_KEY;
+    const apiKey = ""; // Preview environment injects API key at runtime
     const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-09-2025:generateContent?key=${apiKey}`;
 
     const payload = {
