@@ -1,5 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
-import { 
+ React, { useState, useEffect, useRef } from 'react';{ 
   Sparkles, Brain, Timer, Compass, Trash2, Plus, Check, Lock, 
   BookOpen, Heart, User, Sun, Moon, AlertCircle, ArrowRight, 
   ArrowLeft, CheckSquare, RefreshCw, BarChart2, ShieldAlert,
